@@ -1,0 +1,19 @@
+This file contains the project’s copypastable boilerplate comment headers.
+
+Boilerplate for C-like languages:
+
+/****************************************************************************\
+ *                                lodepnglib                                *
+ *                                                                          *
+ *                      Copyright © 2019 ARQADIUM, LLC                      *
+ *                           All rights reserved.                           *
+\****************************************************************************/
+
+Hash-based boilerplate (Python, POSIX shell, Makefile):
+
+##############################################################################
+##                                lodepnglib                                ##
+##                                                                          ##
+##                      Copyright © 2019 ARQADIUM, LLC                      ##
+##                           All rights reserved.                           ##
+##############################################################################
