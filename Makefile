@@ -49,11 +49,7 @@ CXXFLAGS += -DLODEPNG_NO_COMPILE_ENCODER=1
 include targets.mk
 
 clean:
-	$(RM) $(TARGETS_DBG)
-	$(RM) $(TARGETS_REL)
-	$(RM) $(TARGETS_CHK)
-	$(RM) $(TARGETS_COV)
-	$(RM) $(TARGETS_ASAN)
+	$(RM) $(TARGETS)
 	$(RM) $(OFILES)
 	$(RM) $(GCNOFILES)
 	$(RM) $(GCDAFILES)
