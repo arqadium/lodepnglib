@@ -18,20 +18,11 @@ INCLUDES := include
 INCLUDEL := src include/lodepng
 
 # libraries
-LIBS      :=
-LIBDIRS   :=
+LIBS    :=
+LIBDIRS :=
 
 # frameworks (macOS only)
 FWORKS :=
-
-ifeq ($(UNAME),Windows)
-	LIBS     += mingw32
-	LIBDIRS  += $(USERPROFILE)/sysroot/lib
-	INCLUDES += $(USERPROFILE)/sysroot/include
-endif
-ifeq ($(UNAME),Linux)
-	LIBS     += m pthread
-endif
 
 CFILES    := src/lodepng.c
 HFILES    := include/lodepng/lodepng.h
@@ -45,16 +36,7 @@ GCDAFILES := $(CFILES:.c=.c.gcda) $(CPPFILES:.cpp=.cpp.gcda)
 CFLAGS += -DLODEPNG_NO_COMPILE_ENCODER=1
 CXXFLAGS += -DLODEPNG_NO_COMPILE_ENCODER=1
 
+NO_TES := 1
+
 # this defines all our usual targets
 include targets.mk
-
-clean:
-	$(RM) $(TARGETS)
-	$(RM) $(OFILES)
-	$(RM) $(GCNOFILES)
-	$(RM) $(GCDAFILES)
-
-format:
-	for _file in $(CFILES) $(HFILES) $(CPPFILES) $(HPPFILES); do \
-		$(FMT) -i -style=file $$_file ; \
-	done
