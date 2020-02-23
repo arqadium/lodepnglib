@@ -5,8 +5,9 @@ Boilerplate for C-like languages:
 /****************************************************************************\
  *                                lodepnglib                                *
  *                                                                          *
- *                      Copyright © 2019 ARQADIUM, LLC                      *
- *                           All rights reserved.                           *
+ *                  Copyright © 2005-2019  Lode Vandevenne                  *
+ *                    Copyright © 2019-2020 ARQADIUM LLC                    *
+ *                       Released under BSD-2-Clause.                       *
 \****************************************************************************/
 
 Hash-based boilerplate (Python, POSIX shell, Makefile):
@@ -14,6 +15,7 @@ Hash-based boilerplate (Python, POSIX shell, Makefile):
 ##############################################################################
 ##                                lodepnglib                                ##
 ##                                                                          ##
-##                      Copyright © 2019 ARQADIUM, LLC                      ##
-##                           All rights reserved.                           ##
+##                  Copyright © 2005-2019  Lode Vandevenne                  ##
+##                    Copyright © 2019-2020 ARQADIUM LLC                    ##
+##                       Released under BSD-2-Clause.                       ##
 ##############################################################################

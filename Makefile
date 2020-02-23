@@ -1,8 +1,9 @@
 ##############################################################################
 ##                                lodepnglib                                ##
 ##                                                                          ##
-##                      Copyright © 2019 ARQADIUM, LLC                      ##
-##                           All rights reserved.                           ##
+##                  Copyright © 2005-2019  Lode Vandevenne                  ##
+##                    Copyright © 2019-2020 ARQADIUM LLC                    ##
+##                       Released under BSD-2-Clause.                       ##
 ##############################################################################
 
 include base.mk
